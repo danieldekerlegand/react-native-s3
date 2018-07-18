@@ -12,6 +12,7 @@
 		7F27385B1C86C7650094B90C /* AWSS3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F2738581C86C7650094B90C /* AWSS3.framework */; };
 		7FE73D9A1C83BE1000A267C9 /* RNS3TransferUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE73D991C83BE1000A267C9 /* RNS3TransferUtility.m */; };
 		D2689E6B1CEC7FDB001CA85B /* RNS3STSCredentialsProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = D2689E6A1CEC7FDB001CA85B /* RNS3STSCredentialsProvider.m */; };
+		E90A544420FFB3AD008FE7A6 /* RNS3TransferUtilityMultiPart.m in Sources */ = {isa = PBXBuildFile; fileRef = E90A544320FFB3AD008FE7A6 /* RNS3TransferUtilityMultiPart.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,8 @@
 		7FE73D991C83BE1000A267C9 /* RNS3TransferUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNS3TransferUtility.m; sourceTree = "<group>"; };
 		D2689E691CEC7FDB001CA85B /* RNS3STSCredentialsProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNS3STSCredentialsProvider.h; sourceTree = "<group>"; };
 		D2689E6A1CEC7FDB001CA85B /* RNS3STSCredentialsProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNS3STSCredentialsProvider.m; sourceTree = "<group>"; };
+		E90A544220FFB3A7008FE7A6 /* RNS3TransferUtilityMultiPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNS3TransferUtilityMultiPart.h; sourceTree = "<group>"; };
+		E90A544320FFB3AD008FE7A6 /* RNS3TransferUtilityMultiPart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNS3TransferUtilityMultiPart.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				7FE73D991C83BE1000A267C9 /* RNS3TransferUtility.m */,
 				D2689E691CEC7FDB001CA85B /* RNS3STSCredentialsProvider.h */,
 				D2689E6A1CEC7FDB001CA85B /* RNS3STSCredentialsProvider.m */,
+				E90A544220FFB3A7008FE7A6 /* RNS3TransferUtilityMultiPart.h */,
+				E90A544320FFB3AD008FE7A6 /* RNS3TransferUtilityMultiPart.m */,
 			);
 			path = RNS3;
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 			files = (
 				D2689E6B1CEC7FDB001CA85B /* RNS3STSCredentialsProvider.m in Sources */,
 				7FE73D9A1C83BE1000A267C9 /* RNS3TransferUtility.m in Sources */,
+				E90A544420FFB3AD008FE7A6 /* RNS3TransferUtilityMultiPart.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
