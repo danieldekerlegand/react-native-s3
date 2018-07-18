@@ -143,8 +143,16 @@ static NSString* instanceKey = @"RNS3TransferUtilityMultiPart";
     AWSServiceConfiguration *configuration = [[AWSServiceConfiguration alloc] initWithRegion:region
                                                                          credentialsProvider:credentialsProvider];
     
+//    [AWSS3TransferUtility registerS3TransferUtilityWithConfiguration:configuration
+//                                                              forKey:instanceKey];
+    
+    AWSS3TransferUtilityConfiguration *transferUtilityConfiguration = [[AWSS3TransferUtilityConfiguration alloc] init];
+    transferUtilityConfiguration.timeoutIntervalForResource = 60 * 60 * 24;
+    
     [AWSS3TransferUtility registerS3TransferUtilityWithConfiguration:configuration
+                                        transferUtilityConfiguration:transferUtilityConfiguration
                                                               forKey:instanceKey];
+    
     return YES;
 }
 
